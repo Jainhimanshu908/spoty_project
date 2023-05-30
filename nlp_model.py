@@ -10,7 +10,7 @@ from PIL import Image
 def log_data():
     st.title('welcome! listner!')
     img1 =Image.open('image2.png')
-    img1 = img1.resize((450,150))
+    img1 = img1.resize((350,150))
     st.image(img1,use_column_width=False)
     ######
     log_id =st.button("sign up")
@@ -26,7 +26,7 @@ def model_e():
     # for prmium membership or not 
     st.title('welcome! listner!')
     img1 =Image.open('image1.png')
-    img1 = img1.resize((550,250))
+    img1 = img1.resize((350,250))
     st.image(img1,use_column_width=False)
     ########
     premium =['Yes','No']
