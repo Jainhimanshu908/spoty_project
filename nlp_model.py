@@ -80,7 +80,7 @@ def model_e():
 
     # speccheness
     spicho = st.slider('song is like a speech',0,100)
-    spi=spicho*spicho
+    spi=spicho*0.01
 
     sub=st.button("submit")
     if sub:
