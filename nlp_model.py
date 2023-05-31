@@ -76,11 +76,11 @@ def model_e():
 
     # energy 
     energo =st.slider('energy of song ?',0,100)
-    energymy = 0.1*energo
+    energymy = 0.01*energo
 
     # speccheness
     spicho = st.slider('song is like a speech',0,100)
-    spi=spicho*0.1
+    spi=spicho*0.01
 
     sub=st.button("submit")
     if sub:
