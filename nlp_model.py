@@ -13,6 +13,11 @@ def log_data():
     img1 = img1.resize((250,150))
     st.image(img1,use_column_width=False)
     st.sidebar.header('About')
+    st.text('''Music consumption habits have changed dramatically with the rise of 
+streaming services like Spotify, Apple Music, and Tidal. The skip button plays 
+a large role in the user’s experience, as they are free to abandon songs as they 
+choose. Music providers are also incentivized to recommend songs that their 
+users like in order to increase user experience and time spent on the platform''')
     ######
     
     
