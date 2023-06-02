@@ -14,13 +14,14 @@ def log_data():
     st.image(img1,use_column_width=False)
     st.sidebar.header('About')
     ######
-    log_id =st.button("sign up")
-    if log_id:
-        st.text_input("Enter your name")
-        st.text_input("Enter your mail")
+    
+    
+     st.text_input("Enter your name")
+     st.text_input("Enter your mail")
 
 
 log_data()
+log_id =st.button("sign up")
 st.text('')
 
 def model_e():
