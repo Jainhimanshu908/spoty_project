@@ -36,7 +36,7 @@ def model_e():
     img1 = img1.resize((350,250))
     st.image(img1,use_column_width=False)
     ########
-    st.text("This model can predict yow will skip the song or you will continue with song ") 
+    st.sidebar.text("This model can predict yow will skip the song or you will continue with song ") 
     premium =['Yes','No']
     
     prem = st.selectbox("Are you a premium member ?",premium)
