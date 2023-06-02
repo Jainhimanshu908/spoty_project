@@ -28,7 +28,12 @@ users like in order to increase user experience and time spent on the platform''
 log_data()
 log_id =st.button("sign up")
 st.text('')
-
+mic=st.sidebar.button("explore")
+if mic:
+    img2 =Image.open('image2.png')
+    img2 = img1.resize((250,150))
+    st.image(img1,use_column_width=False)
+    
 def model_e():
     # for prmium membership or not 
     st.title('welcome!')
