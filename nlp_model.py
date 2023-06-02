@@ -29,10 +29,11 @@ log_data()
 log_id =st.button("sign up")
 st.text('')
 mic=st.sidebar.button("explore")
-if mic:
+def expo():
     img2 =Image.open('m1.png')
     img2 = img2.resize((250,150))
     st.image(img1,use_column_width=False)
+ 
     img3 =Image.open('m2.png')
     img3 = img3.resize((250,150))
     st.image(img1,use_column_width=False)
@@ -40,6 +41,11 @@ if mic:
     img4 = img4.resize((250,150))
     st.image(img1,use_column_width=False)
     
+
+
+
+if mic:
+    expo()
 def model_e():
     # for prmium membership or not 
     st.title('welcome!')
