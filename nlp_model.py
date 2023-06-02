@@ -31,6 +31,7 @@ def model_e():
     img1 = img1.resize((350,250))
     st.image(img1,use_column_width=False)
     ########
+    st.text("This model can predict yow will skip the song or you will continue with song ") 
     premium =['Yes','No']
     
     prem = st.selectbox("Are you a premium member ?",premium)
@@ -52,6 +53,7 @@ def model_e():
     st_p = cont[capi]
 
     # behavioue to start 
+    st.text("most import factor to predict")
 
     beha={'appload': 0, 'backbtn': 1, 'clickrow': 2, 'endplay': 3, 'fwdbtn': 4, 'playbtn': 5, 'remote': 6, 'trackdone': 7, 'trackerror': 8}
     behavi={'appload', 'backbtn', 'clickrow', 'endplay', 'fwdbtn', 'playbtn', 'remote', 'trackdone', 'trackerror'}
@@ -65,6 +67,8 @@ def model_e():
     # song duration
     dura =st.slider('song duration in seconds  ?',1,360)
 # reason end 
+    st.text("most important factor")
+
     end_reason= {'backbtn': 0, 'clickrow': 1, 'endplay': 2, 'fwdbtn': 3, 'logout': 4, 'remote': 5, 'trackdone': 6}
     endo ={'backbtn', 'clickrow', 'endplay', 'fwdbtn', 'logout', 'remote', 'trackdone'}
     en= st.selectbox('why you stopped the song ?',endo)
