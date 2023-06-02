@@ -50,6 +50,9 @@ def expo():
     img4 =Image.open('m3.png')
     img4 = img4.resize((450,250))
     st.image(img4,use_column_width=False)
+    img5 =Image.open('m4.png')
+    img5 = img5.resize((450,250))
+    st.image(img5,use_column_width=False)
     
 
 
