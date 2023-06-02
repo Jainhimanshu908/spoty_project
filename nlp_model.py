@@ -27,7 +27,9 @@ users like in order to increase user experience and time spent on the platform''
 
 log_data()
 log_id =st.button("sign up")
-st.text('')
+if log_id:
+    st.text('Thankyou ')
+
 # mic=st.button("explore")
 # def expo():
 #     img2 =Image.open('m1.png')
