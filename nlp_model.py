@@ -5,7 +5,7 @@ import sklearn
 
 import pickle 
 
-model_1 = pickle.load(open('model_gnb.pkl','rb'))
+model_1 = pickle.load(open('model_knn.pkl','rb'))
 from PIL import Image 
 def log_data():
     st.title('welcome! listner!')
