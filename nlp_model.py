@@ -63,7 +63,7 @@ def model_e():
     beha={'appload': 0, 'backbtn': 1, 'clickrow': 2, 'endplay': 3, 'fwdbtn': 4, 'playbtn': 5, 'remote': 6, 'trackdone': 7, 'trackerror': 8}
     behavi={'appload', 'backbtn', 'clickrow', 'endplay', 'fwdbtn', 'playbtn', 'remote', 'trackdone', 'trackerror'}
 
-    be=st.selectbox("why you play new song (most import factor to predict is why you are listning song)  ?",behavi)
+    be=st.selectbox("why you play new song (most important factor to predict is why you are listning song)  ?",behavi)
     be_i=beha[be]
 
 #popularity
@@ -76,7 +76,7 @@ def model_e():
 
     end_reason= {'backbtn': 0, 'clickrow': 1, 'endplay': 2, 'fwdbtn': 3, 'logout': 4, 'remote': 5, 'trackdone': 6}
     endo ={'backbtn', 'clickrow', 'endplay', 'fwdbtn', 'logout', 'remote', 'trackdone'}
-    en= st.selectbox('why you stopped the song (most import factor to predict is why you are end listning song)?',endo)
+    en= st.selectbox('why you stopped the song (most important factor to predict is why you are end listning song)?',endo)
     en_i=end_reason[en]
 
     # mode
