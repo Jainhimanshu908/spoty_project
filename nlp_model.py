@@ -16,8 +16,8 @@ def log_data():
     ######
     
     
-     st.text_input("Enter your name")
-     st.text_input("Enter your mail")
+    st.text_input("Enter your name")
+    st.text_input("Enter your mail")
 
 
 log_data()
