@@ -34,19 +34,19 @@ if log_id:
 
 def expo():
     img2 =Image.open('m1.png')
-    img2 = img2.resize((250,150))
+    img2 = img2.resize((450,250))
     st.image(img2,use_column_width=False)
  
     img3 =Image.open('m2.png')
-    img3 = img3.resize((250,150))
+    img3 = img3.resize((450,250))
     st.image(img3,use_column_width=False)
     img4 =Image.open('m3.png')
-    img4 = img4.resize((250,150))
+    img4 = img4.resize((450,250))
     st.image(img4,use_column_width=False)
     
 
 
-mic=st.sidebar.button("explore")
+mic=st.button("explore")
 if mic:
     expo()
 def model_e():
