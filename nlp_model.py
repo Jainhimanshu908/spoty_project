@@ -26,6 +26,7 @@ log_data()
 log_id =st.button("sign up")
 if log_id:
     st.text('Thankyou ')
+st.text("Listening to music 🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧🎧")
 st.text('''Music consumption habits have changed dramatically with the rise of 
 streaming services like Spotify, Apple Music, and Tidal. The skip button plays 
 a large role in the user’s experience, as they are free to abandon songs as they 
