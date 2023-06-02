@@ -25,7 +25,7 @@ def log_data():
 log_data()
 log_id =st.button("sign up")
 if log_id:
-    st.text('Thankyou ')
+    st.text('❤️❤️❤️❤️❤️Thankyou❤️❤️❤️❤️❤️ ')
 st.text('''  
 
 
