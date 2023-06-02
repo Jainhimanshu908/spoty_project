@@ -28,7 +28,7 @@ users like in order to increase user experience and time spent on the platform''
 log_data()
 log_id =st.button("sign up")
 st.text('')
-mic=st.sidebar.button("explore")
+mic=st.button("explore")
 def expo():
     img2 =Image.open('m1.png')
     img2 = img2.resize((250,150))
