@@ -107,7 +107,7 @@ def model_e():
             st.image(img1,use_column_width=False)
 
 
-    
+     
 
 
 
