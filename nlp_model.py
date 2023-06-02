@@ -53,7 +53,7 @@ def model_e():
     st_p = cont[capi]
 
     # behavioue to start 
-    st.text("most import factor to predict")
+    st.text("most import factor to predict is why you are listning song ")
 
     beha={'appload': 0, 'backbtn': 1, 'clickrow': 2, 'endplay': 3, 'fwdbtn': 4, 'playbtn': 5, 'remote': 6, 'trackdone': 7, 'trackerror': 8}
     behavi={'appload', 'backbtn', 'clickrow', 'endplay', 'fwdbtn', 'playbtn', 'remote', 'trackdone', 'trackerror'}
@@ -67,7 +67,7 @@ def model_e():
     # song duration
     dura =st.slider('song duration in seconds  ?',1,360)
 # reason end 
-    st.text("most important factor")
+    st.text("most important factor why you end listning song ")
 
     end_reason= {'backbtn': 0, 'clickrow': 1, 'endplay': 2, 'fwdbtn': 3, 'logout': 4, 'remote': 5, 'trackdone': 6}
     endo ={'backbtn', 'clickrow', 'endplay', 'fwdbtn', 'logout', 'remote', 'trackdone'}
