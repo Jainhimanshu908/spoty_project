@@ -12,6 +12,7 @@ def log_data():
     img1 =Image.open('image2.png')
     img1 = img1.resize((250,150))
     st.image(img1,use_column_width=False)
+    st.sidebar.header('About')
     ######
     log_id =st.button("sign up")
     if log_id:
