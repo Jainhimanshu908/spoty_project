@@ -7,6 +7,7 @@ import pickle
 
 model_1 = pickle.load(open('model_knn.pkl','rb'))
 from PIL import Image 
+
 def log_data():
     st.title('welcome! listner!')
     img1 =Image.open('image2.png')
@@ -30,24 +31,24 @@ log_id =st.button("sign up")
 if log_id:
     st.text('Thankyou ')
 
-# mic=st.button("explore")
-# def expo():
-#     img2 =Image.open('m1.png')
-#     img2 = img2.resize((250,150))
-#     st.image(img1,use_column_width=False)
+
+def expo():
+    img2 =Image.open('m1.png')
+    img2 = img2.resize((250,150))
+    st.image(img2,use_column_width=False)
  
-#     img3 =Image.open('m2.png')
-#     img3 = img3.resize((250,150))
-#     st.image(img1,use_column_width=False)
-#     img4 =Image.open('m3.png')
-#     img4 = img4.resize((250,150))
-#     st.image(img1,use_column_width=False)
+    img3 =Image.open('m2.png')
+    img3 = img3.resize((250,150))
+    st.image(img3,use_column_width=False)
+    img4 =Image.open('m3.png')
+    img4 = img4.resize((250,150))
+    st.image(img4,use_column_width=False)
     
 
 
-
-# if mic:
-#     expo()
+mic=st.sidebar.button("explore")
+if mic:
+    expo()
 def model_e():
     # for prmium membership or not 
     st.title('welcome!')
