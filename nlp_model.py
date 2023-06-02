@@ -41,17 +41,17 @@ st.text("if you want to explore data click on explore")
 
 def expo():
     img2 =Image.open('m1.png')
-    img2 = img2.resize((450,250))
+    img2 = img2.resize((350,250))
     st.image(img2,use_column_width=False)
  
     img3 =Image.open('m2.png')
-    img3 = img3.resize((450,250))
+    img3 = img3.resize((350,250))
     st.image(img3,use_column_width=False)
     img4 =Image.open('m3.png')
-    img4 = img4.resize((450,250))
+    img4 = img4.resize((350,250))
     st.image(img4,use_column_width=False)
     img5 =Image.open('m4.png')
-    img5 = img5.resize((450,250))
+    img5 = img5.resize((350,250))
     st.image(img5,use_column_width=False)
     
 
